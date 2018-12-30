@@ -1,0 +1,3 @@
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/cmake-build-debug/CMakeFiles/DnaProject.dir

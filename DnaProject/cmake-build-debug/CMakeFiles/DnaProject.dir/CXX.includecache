@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.cpp
+Tests.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
+
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
+iostream
+-
+../model/Nucleotid.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+../model/dnaSequence.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
+
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+iostream
+-
+Nucleotid.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+iostream
+-
+
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
+IDnaSequence.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+
