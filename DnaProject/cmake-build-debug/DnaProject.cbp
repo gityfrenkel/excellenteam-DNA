@@ -90,7 +90,46 @@
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h">
 			<Option target="DnaProject"/>
 		</Unit>
-		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/main.cpp">
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/main1.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/LoadCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/LoadCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/main.cpp">
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.cpp">
@@ -100,6 +139,12 @@
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h">
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.cpp">

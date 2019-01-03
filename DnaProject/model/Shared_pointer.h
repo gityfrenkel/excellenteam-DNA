@@ -5,6 +5,7 @@
 #ifndef DNAPROJECT_SHARED_POINTER_H
 #define DNAPROJECT_SHARED_POINTER_H
 #include <stdlib.h>
+#include <cstddef>
 #include <new>
 
 #ifdef TESTING
@@ -21,6 +22,11 @@ public:
     SharePointer(const SharePointer& other);
     ~SharePointer();
 
+    template <typename U>
+    SharePointer(const SharePointer<U>& other);
+    template <typename U>
+    SharePointer& operator=(const SharePointer<U>& other);
+
     SharePointer& operator=(const SharePointer& other);
 
     T* operator->() const;
@@ -36,6 +42,35 @@ private:
     T* m_ptr;
     size_t* m_count;
 };
+
+
+template <typename T>
+template <typename U>
+SharePointer<T>& SharePointer<T>::operator=(const SharePointer<U> &other)
+{
+    if(m_ptr)
+    {
+        delete m_ptr;
+        delete m_count;
+    }
+
+    m_ptr = other.m_ptr;
+    m_count = other.m_count;
+
+    (*m_count)++;
+
+    return *this;
+}
+
+
+template <typename T>
+template <typename U>
+SharePointer<T>::SharePointer(const SharePointer<U>& other)
+{
+    m_ptr = other.m_ptr;
+    m_count = other.m_count;
+    (*m_count)++;
+}
 
 template <typename T>
 SharePointer<T>::SharePointer(T *ptr) try

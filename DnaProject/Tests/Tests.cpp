@@ -2,6 +2,9 @@
 // Created by gity on 12/28/18.
 //
 #include "Tests.h"
+#include "../model/Nucleotid.h"
+#include "../model/dnaSequence.h"
+#include "../model/ReadFile.h"
 
 void Tests::testNucleotid()
 {
@@ -91,4 +94,15 @@ void Tests::testDnaSequence()
         std::cout << dnaSequence << " != " << dnaSequence1 << std::endl;
     }
 
+}
+
+void Tests::testReadFile()
+{
+
+    const char *path = "/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel";
+    ReadFile rf(path);
+    DnaSequence ds = rf.read();
+    std::cout << rf.read() << '\n';
+//    WriteFile wf("C:\\Users\\RENT\\Desktop\\DnaSeq\\dna_write.txt");
+//    wf.write(rf.read());
 }

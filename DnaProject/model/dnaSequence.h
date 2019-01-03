@@ -26,6 +26,7 @@ public:
 
     size_t get_Length() const;
     Nucleotid* getSequence() const;
+    std::string getSeqStr();
 
 private:
     Nucleotid* m_dnaSequence;

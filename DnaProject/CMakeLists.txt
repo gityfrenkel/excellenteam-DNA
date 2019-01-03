@@ -3,4 +3,4 @@ project(DnaProject)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(DnaProject Tests/main.cpp model/Nucleotid.h model/Nucleotid.cpp model/dnaSequence.cpp model/dnaSequence.h model/IDnaSequence.h model/Shared_pointer.h Tests/Tests.cpp Tests/Tests.h model/DnaData.h model/ReadFile.cpp model/ReadFile.h model/WriteFile.cpp model/WriteFile.h view/CLI.cpp view/CLI.h view/UI.h model/DnaData.cpp)
+add_executable(DnaProject Tests/main1.cpp model/Nucleotid.h model/Nucleotid.cpp model/dnaSequence.cpp model/dnaSequence.h model/IDnaSequence.h model/Shared_pointer.h Tests/Tests.cpp Tests/Tests.h model/DnaData.h model/ReadFile.cpp model/ReadFile.h model/WriteFile.cpp model/WriteFile.h view/CLI.cpp view/CLI.h view/UI.h model/DnaData.cpp controller/Parser.cpp controller/Parser.h controller/Icommand.h model/MetaData.cpp model/MetaData.h controller/NewCommand.cpp controller/NewCommand.h controller/RunCommands.cpp controller/RunCommands.h controller/main.cpp controller/Factory.cpp controller/Factory.h controller/Icommand.cpp controller/LoadCommand.cpp controller/LoadCommand.h)

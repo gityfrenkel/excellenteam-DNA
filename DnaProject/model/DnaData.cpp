@@ -1,24 +1,60 @@
 //
 // Created by gity on 12/29/18.
 //
+
 #include "DnaData.h"
+#include "../controller/NewCommand.h"
 
-void DnaData::add(char* seqName, int seqId, SharePointer<IDnaSequence> mySeq)//TODO must return it's only to can run
+
+void DnaData::add(int _id, std::string name, SharePointer<IDnaSequence> dna)
 {
-    DnaDetails addVar;
-    addVar.dnaSeq = mySeq;
-    addVar.SeqId = seqId;
-    addVar.SeqName = seqName;
+    MetaData metaData(_id, name, dna);
 
-    m_dataVector.push_back(addVar);
+    m_mapName.insert(std::pair<std::string, MetaData>(metaData.getName(), metaData));
+    m_mapId.insert(std::pair<int, MetaData>(metaData.getId(), metaData));
 }
 
-DnaDetails* DnaData::getDnaArray()//TODO must return it's only to can run
+bool DnaData::exist(std::string name)
 {
-    return &m_dataVector.back();
+    std::map<std::string, MetaData>::iterator it;
+    it = m_mapName.find(name);
+
+    if(it != m_mapName.end())
+        return true;
+
+    return false;
 }
 
-void DnaData::del(char* seqName, int seqId)//TODO must return it's only to can run
+std::string DnaData::StrToPrint(std::string name)
 {
-    m_dataVector.clear();
+    int IdByName;
+
+    std::map<std::string, MetaData>::iterator itNameMap;
+    std::map<int, MetaData>::iterator itIdMap;
+
+
+    itNameMap = m_mapName.find(name);
+
+    if(itNameMap != m_mapName.end())
+    {
+        IdByName = itNameMap.operator->()->second.getId();
+
+        std::string dnaToPrint = "[" + std::to_string(IdByName) + "] ";
+        dnaToPrint += name;
+        dnaToPrint += ": ";
+        std::string dnaByStr = itNameMap.operator->()->second.getDna().operator->()->getSeqStr();
+        if(dnaByStr.length() > 40)
+        {
+            dnaToPrint += dnaByStr.substr(0, 32);
+            dnaToPrint += "...";
+            dnaToPrint += dnaByStr.substr(dnaByStr.length()-3, dnaByStr.length());
+        }
+
+        return dnaToPrint;
+    }
+
+    return "";
 }
+
+
+

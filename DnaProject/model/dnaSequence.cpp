@@ -180,3 +180,13 @@ Nucleotid* DnaSequence::getSequence() const
 {
     return m_dnaSequence;
 }
+
+std::string DnaSequence::getSeqStr()
+{
+    std::string dnaStr = "";
+
+    for( unsigned int i = 0; i < m_length; ++i)
+        dnaStr += m_dnaSequence[i].getNucleotid();
+
+    return dnaStr;
+}

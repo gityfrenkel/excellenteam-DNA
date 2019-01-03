@@ -6,13 +6,83 @@ CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/ReadFile.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o
+CMakeFiles/DnaProject.dir/Tests/main1.cpp.o
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
- /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/main.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/main1.cpp
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
+CMakeFiles/DnaProject.dir/controller/Parser.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/view/CLI.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/view/UI.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Factory.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/main.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/view/CLI.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/view/UI.h
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.cpp
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
+ /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
 CMakeFiles/DnaProject.dir/model/Nucleotid.cpp.o
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.cpp
  /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h

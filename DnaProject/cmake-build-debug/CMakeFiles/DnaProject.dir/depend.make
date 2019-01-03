@@ -5,13 +5,83 @@ CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../Tests/Tests.cpp
 CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../Tests/Tests.h
 CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../model/IDnaSequence.h
 CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../model/ReadFile.h
 CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o: ../model/dnaSequence.h
 
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o: ../Tests/Tests.h
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o: ../Tests/main.cpp
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o: ../model/IDnaSequence.h
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o: ../model/Nucleotid.h
-CMakeFiles/DnaProject.dir/Tests/main.cpp.o: ../model/dnaSequence.h
+CMakeFiles/DnaProject.dir/Tests/main1.cpp.o: ../Tests/Tests.h
+CMakeFiles/DnaProject.dir/Tests/main1.cpp.o: ../Tests/main1.cpp
+
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../controller/Factory.cpp
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../controller/Factory.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../controller/Icommand.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../controller/NewCommand.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/controller/Factory.cpp.o: ../model/Shared_pointer.h
+
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../controller/Icommand.cpp
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../controller/Icommand.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o: ../model/Shared_pointer.h
+
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../controller/Icommand.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../controller/NewCommand.cpp
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../controller/NewCommand.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o: ../model/dnaSequence.h
+
+CMakeFiles/DnaProject.dir/controller/Parser.cpp.o: ../controller/Parser.cpp
+CMakeFiles/DnaProject.dir/controller/Parser.cpp.o: ../controller/Parser.h
+
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/Factory.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/Icommand.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/NewCommand.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/Parser.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/RunCommands.cpp
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../controller/RunCommands.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../view/CLI.h
+CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o: ../view/UI.h
+
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/Factory.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/Icommand.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/NewCommand.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/Parser.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/RunCommands.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../controller/main.cpp
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../model/Shared_pointer.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../view/CLI.h
+CMakeFiles/DnaProject.dir/controller/main.cpp.o: ../view/UI.h
+
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/DnaData.cpp
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/DnaData.h
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/model/DnaData.cpp.o: ../model/Shared_pointer.h
+
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o: ../model/IDnaSequence.h
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o: ../model/MetaData.cpp
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o: ../model/MetaData.h
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o: ../model/Nucleotid.h
+CMakeFiles/DnaProject.dir/model/MetaData.cpp.o: ../model/Shared_pointer.h
 
 CMakeFiles/DnaProject.dir/model/Nucleotid.cpp.o: ../model/Nucleotid.cpp
 CMakeFiles/DnaProject.dir/model/Nucleotid.cpp.o: ../model/Nucleotid.h

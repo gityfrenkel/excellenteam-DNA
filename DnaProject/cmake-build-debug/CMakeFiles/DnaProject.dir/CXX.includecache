@@ -6,29 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.cpp
-Tests.h
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.cpp
+DnaData.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
 
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/Tests/Tests.h
-iostream
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h
+map
 -
-../model/Nucleotid.h
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
-../model/dnaSequence.h
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
+MetaData.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
 
 /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
-iostream
--
 Nucleotid.h
 /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
 
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/MetaData.h
+IDnaSequence.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+Shared_pointer.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+
 /home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Nucleotid.h
 iostream
 -
 
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/dnaSequence.h
-IDnaSequence.h
-/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h
+/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/Shared_pointer.h
+stdlib.h
+-
+new
+-
 

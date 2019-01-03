@@ -5,14 +5,14 @@
 #ifndef DNAPROJECT_UI_H
 #define DNAPROJECT_UI_H
 
-#include <iostream>
+
 #include "UI.h"
 
 
 class CLI : public UI
 {
 public:
-    CLI(std::string prompt = ">> ");
+    CLI(std::string prompt = "> cmd >>> ");
     std::string getPrompt();
 
 private:

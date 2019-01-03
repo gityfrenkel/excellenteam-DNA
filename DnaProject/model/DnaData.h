@@ -4,28 +4,25 @@
 
 #ifndef DNAPROJECT_DNADATA_H
 #define DNAPROJECT_DNADATA_H
-#include <vector>
-#include "IDnaSequence.h"
-#include "Shared_pointer.h"
-
-typedef struct DnaDetails{
-
-    char* SeqName;
-    int SeqId = 0;
-    SharePointer<IDnaSequence> dnaSeq;
-
-} DnaDetails;
+#include <map>
+#include <string>
+#include <iostream>
+#include <sstream>
+#include <cstddef>
+#include "MetaData.h"
 
 class DnaData
 {
 public:
     DnaData(){}
-    void add(char*, int, SharePointer<IDnaSequence>);
-    DnaDetails* getDnaArray();
-    void del(char*, int = 0);
+
+    void add(int _id, std::string name, SharePointer<IDnaSequence> dna);
+    bool exist(std::string name);
+    std::string StrToPrint(std::string name);
 
 private:
-    std::vector<DnaDetails> m_dataVector;
+    std::map<std::string, MetaData> m_mapName;
+    std::map<int, MetaData> m_mapId;
 };
 
 

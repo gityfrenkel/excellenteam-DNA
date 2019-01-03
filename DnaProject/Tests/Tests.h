@@ -5,12 +5,12 @@
 #ifndef DNAPROJECT_TESTS_H
 #define DNAPROJECT_TESTS_H
 #include <iostream>
-#include "../model/Nucleotid.h"
-#include "../model/dnaSequence.h"
+
 class Tests
 {
 public:
     void testNucleotid();
     void testDnaSequence();
+    void testReadFile();
 };
 #endif //DNAPROJECT_TESTS_H

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DnaProject.dir/Tests/main.cpp.o"
+  "CMakeFiles/DnaProject.dir/Tests/main1.cpp.o"
   "CMakeFiles/DnaProject.dir/model/Nucleotid.cpp.o"
   "CMakeFiles/DnaProject.dir/model/dnaSequence.cpp.o"
   "CMakeFiles/DnaProject.dir/Tests/Tests.cpp.o"
@@ -7,6 +7,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/DnaProject.dir/model/WriteFile.cpp.o"
   "CMakeFiles/DnaProject.dir/view/CLI.cpp.o"
   "CMakeFiles/DnaProject.dir/model/DnaData.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/Parser.cpp.o"
+  "CMakeFiles/DnaProject.dir/model/MetaData.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/main.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/Factory.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/LoadCommand.cpp.o"
   "DnaProject.pdb"
   "DnaProject"
 )
