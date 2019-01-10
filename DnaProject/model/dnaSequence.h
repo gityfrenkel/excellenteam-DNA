@@ -22,11 +22,13 @@ public:
 
     Nucleotid& operator [](size_t idx);
     const Nucleotid operator [](size_t idx)const;
+    friend std::ostringstream& operator<< (std::ostringstream &os, const IDnaSequence* idnaSequence);
     friend ostream& operator<<(ostream& os, const DnaSequence dnaSequence);
+
 
     size_t get_Length() const;
     Nucleotid* getSequence() const;
-    std::string getSeqStr();
+    //std::string getSeqStr();
 
 private:
     Nucleotid* m_dnaSequence;

@@ -14,6 +14,7 @@ class CLI : public UI
 public:
     CLI(std::string prompt = "> cmd >>> ");
     std::string getPrompt();
+    void printToScreen(std::string toPrint);
 
 private:
     std::string m_prompt;

@@ -231,6 +231,33 @@ controller/Icommand.cpp.s:
 	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/Icommand.cpp.s
 .PHONY : controller/Icommand.cpp.s
 
+controller/ListCommand.o: controller/ListCommand.cpp.o
+
+.PHONY : controller/ListCommand.o
+
+# target to build an object file
+controller/ListCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ListCommand.cpp.o
+.PHONY : controller/ListCommand.cpp.o
+
+controller/ListCommand.i: controller/ListCommand.cpp.i
+
+.PHONY : controller/ListCommand.i
+
+# target to preprocess a source file
+controller/ListCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ListCommand.cpp.i
+.PHONY : controller/ListCommand.cpp.i
+
+controller/ListCommand.s: controller/ListCommand.cpp.s
+
+.PHONY : controller/ListCommand.s
+
+# target to generate assembly for a file
+controller/ListCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ListCommand.cpp.s
+.PHONY : controller/ListCommand.cpp.s
+
 controller/LoadCommand.o: controller/LoadCommand.cpp.o
 
 .PHONY : controller/LoadCommand.o
@@ -284,6 +311,33 @@ controller/NewCommand.s: controller/NewCommand.cpp.s
 controller/NewCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/NewCommand.cpp.s
 .PHONY : controller/NewCommand.cpp.s
+
+controller/PairCommand.o: controller/PairCommand.cpp.o
+
+.PHONY : controller/PairCommand.o
+
+# target to build an object file
+controller/PairCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/PairCommand.cpp.o
+.PHONY : controller/PairCommand.cpp.o
+
+controller/PairCommand.i: controller/PairCommand.cpp.i
+
+.PHONY : controller/PairCommand.i
+
+# target to preprocess a source file
+controller/PairCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/PairCommand.cpp.i
+.PHONY : controller/PairCommand.cpp.i
+
+controller/PairCommand.s: controller/PairCommand.cpp.s
+
+.PHONY : controller/PairCommand.s
+
+# target to generate assembly for a file
+controller/PairCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/PairCommand.cpp.s
+.PHONY : controller/PairCommand.cpp.s
 
 controller/Parser.o: controller/Parser.cpp.o
 
@@ -339,6 +393,60 @@ controller/RunCommands.cpp.s:
 	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/RunCommands.cpp.s
 .PHONY : controller/RunCommands.cpp.s
 
+controller/SaveCommand.o: controller/SaveCommand.cpp.o
+
+.PHONY : controller/SaveCommand.o
+
+# target to build an object file
+controller/SaveCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/SaveCommand.cpp.o
+.PHONY : controller/SaveCommand.cpp.o
+
+controller/SaveCommand.i: controller/SaveCommand.cpp.i
+
+.PHONY : controller/SaveCommand.i
+
+# target to preprocess a source file
+controller/SaveCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/SaveCommand.cpp.i
+.PHONY : controller/SaveCommand.cpp.i
+
+controller/SaveCommand.s: controller/SaveCommand.cpp.s
+
+.PHONY : controller/SaveCommand.s
+
+# target to generate assembly for a file
+controller/SaveCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/SaveCommand.cpp.s
+.PHONY : controller/SaveCommand.cpp.s
+
+controller/ShowCommand.o: controller/ShowCommand.cpp.o
+
+.PHONY : controller/ShowCommand.o
+
+# target to build an object file
+controller/ShowCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ShowCommand.cpp.o
+.PHONY : controller/ShowCommand.cpp.o
+
+controller/ShowCommand.i: controller/ShowCommand.cpp.i
+
+.PHONY : controller/ShowCommand.i
+
+# target to preprocess a source file
+controller/ShowCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ShowCommand.cpp.i
+.PHONY : controller/ShowCommand.cpp.i
+
+controller/ShowCommand.s: controller/ShowCommand.cpp.s
+
+.PHONY : controller/ShowCommand.s
+
+# target to generate assembly for a file
+controller/ShowCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/controller/ShowCommand.cpp.s
+.PHONY : controller/ShowCommand.cpp.s
+
 controller/main.o: controller/main.cpp.o
 
 .PHONY : controller/main.o
@@ -392,6 +500,33 @@ model/DnaData.s: model/DnaData.cpp.s
 model/DnaData.cpp.s:
 	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/model/DnaData.cpp.s
 .PHONY : model/DnaData.cpp.s
+
+model/DnaSeqPair.o: model/DnaSeqPair.cpp.o
+
+.PHONY : model/DnaSeqPair.o
+
+# target to build an object file
+model/DnaSeqPair.cpp.o:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/model/DnaSeqPair.cpp.o
+.PHONY : model/DnaSeqPair.cpp.o
+
+model/DnaSeqPair.i: model/DnaSeqPair.cpp.i
+
+.PHONY : model/DnaSeqPair.i
+
+# target to preprocess a source file
+model/DnaSeqPair.cpp.i:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/model/DnaSeqPair.cpp.i
+.PHONY : model/DnaSeqPair.cpp.i
+
+model/DnaSeqPair.s: model/DnaSeqPair.cpp.s
+
+.PHONY : model/DnaSeqPair.s
+
+# target to generate assembly for a file
+model/DnaSeqPair.cpp.s:
+	$(MAKE) -f CMakeFiles/DnaProject.dir/build.make CMakeFiles/DnaProject.dir/model/DnaSeqPair.cpp.s
+.PHONY : model/DnaSeqPair.cpp.s
 
 model/MetaData.o: model/MetaData.cpp.o
 
@@ -576,24 +711,39 @@ help:
 	@echo "... controller/Icommand.o"
 	@echo "... controller/Icommand.i"
 	@echo "... controller/Icommand.s"
+	@echo "... controller/ListCommand.o"
+	@echo "... controller/ListCommand.i"
+	@echo "... controller/ListCommand.s"
 	@echo "... controller/LoadCommand.o"
 	@echo "... controller/LoadCommand.i"
 	@echo "... controller/LoadCommand.s"
 	@echo "... controller/NewCommand.o"
 	@echo "... controller/NewCommand.i"
 	@echo "... controller/NewCommand.s"
+	@echo "... controller/PairCommand.o"
+	@echo "... controller/PairCommand.i"
+	@echo "... controller/PairCommand.s"
 	@echo "... controller/Parser.o"
 	@echo "... controller/Parser.i"
 	@echo "... controller/Parser.s"
 	@echo "... controller/RunCommands.o"
 	@echo "... controller/RunCommands.i"
 	@echo "... controller/RunCommands.s"
+	@echo "... controller/SaveCommand.o"
+	@echo "... controller/SaveCommand.i"
+	@echo "... controller/SaveCommand.s"
+	@echo "... controller/ShowCommand.o"
+	@echo "... controller/ShowCommand.i"
+	@echo "... controller/ShowCommand.s"
 	@echo "... controller/main.o"
 	@echo "... controller/main.i"
 	@echo "... controller/main.s"
 	@echo "... model/DnaData.o"
 	@echo "... model/DnaData.i"
 	@echo "... model/DnaData.s"
+	@echo "... model/DnaSeqPair.o"
+	@echo "... model/DnaSeqPair.i"
+	@echo "... model/DnaSeqPair.s"
 	@echo "... model/MetaData.o"
 	@echo "... model/MetaData.i"
 	@echo "... model/MetaData.s"

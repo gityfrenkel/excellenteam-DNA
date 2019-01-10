@@ -6,6 +6,7 @@
 #define DNAPROJECT_IDNASEQUENCE_H
 
 #include "Nucleotid.h"
+#include <sstream>
 
 class IDnaSequence
 {
@@ -22,12 +23,12 @@ public:
     virtual Nucleotid& operator [](size_t idx) = 0;
     virtual const Nucleotid operator [](size_t idx) const = 0;
 
-    friend ostream& operator<<(ostream& os, const IDnaSequence* idnaSequence);
+    friend std::ostringstream& operator<< (std::ostringstream &os, const IDnaSequence* idnaSequence);
 
     virtual size_t get_Length() const = 0;
     virtual Nucleotid* getSequence() const = 0;
 
-    virtual std::string getSeqStr() = 0;
+    //virtual std::string getSeqStr() = 0;
 
 };
 

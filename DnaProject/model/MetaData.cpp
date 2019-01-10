@@ -4,10 +4,11 @@
 
 #include "MetaData.h"
 
-MetaData::MetaData(int _id, std::string name, SharePointer<IDnaSequence> dna)
+MetaData::MetaData(int _id, std::string name, std::string status, SharePointer<IDnaSequence> dna)
 {
     m_dnaSequence = dna;
     m_dnaName = name;
+    m_status = status;
     m_dnaId = _id;
 }
 
@@ -24,4 +25,14 @@ std::string MetaData::getName()
 SharePointer<IDnaSequence> MetaData::getDna()
 {
     return m_dnaSequence;
+}
+
+std::string MetaData::getStatus()
+{
+    return m_status;
+}
+
+void MetaData::setStatus(std::string newStatus)
+{
+    m_status = newStatus;
 }

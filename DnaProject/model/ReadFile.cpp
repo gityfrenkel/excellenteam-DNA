@@ -26,6 +26,7 @@ ReadFile::~ReadFile()
 
 DnaSequence ReadFile::read()
 {
-    DnaSequence DNA(m_fileData);
+    std::string d = m_fileData;
+    DnaSequence DNA(d);
     return DNA;
 }

@@ -105,6 +105,12 @@
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Icommand.h">
 			<Option target="DnaProject"/>
 		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/ListCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/ListCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/LoadCommand.cpp">
 			<Option target="DnaProject"/>
 		</Unit>
@@ -115,6 +121,12 @@
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/NewCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/PairCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/PairCommand.h">
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/Parser.cpp">
@@ -129,6 +141,18 @@
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/RunCommands.h">
 			<Option target="DnaProject"/>
 		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/SaveCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/SaveCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/ShowCommand.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/ShowCommand.h">
+			<Option target="DnaProject"/>
+		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/controller/main.cpp">
 			<Option target="DnaProject"/>
 		</Unit>
@@ -136,6 +160,12 @@
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaData.h">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaSeqPair.cpp">
+			<Option target="DnaProject"/>
+		</Unit>
+		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/DnaSeqPair.h">
 			<Option target="DnaProject"/>
 		</Unit>
 		<Unit filename="/home/gity/Desktop/EX/excellenteam-ella-c-dna-gityfrenkel/DnaProject/model/IDnaSequence.h">

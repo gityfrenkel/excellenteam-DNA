@@ -4,16 +4,18 @@
 
 #include "NewCommand.h"
 #include "../model/dnaSequence.h"
-#include "../model/Shared_pointer.h"
+//#include "../model/Shared_pointer.h"
+
+
+int NewCommand::newRegister = Factory::Register("new", new NewCommand);
 
 int NewCommand::SerialNameNumber = 0;
 
-void NewCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
+std::string NewCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
 {
     std::string  name;
     try
     {
-
         if(commandParams.size() > 1)
         {
             IDnaSequence* dnaSequence = new DnaSequence(commandParams[1]);
@@ -32,14 +34,13 @@ void NewCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
                 name = nextSerialName(dnadata);
             }
 
-            dnadata->add(++SerialNumber, name, idnaSequence);
+            dnadata->add(++SerialNumber, name, "new", idnaSequence);
 
-
-            std::cout << dnadata->StrToPrint(name) << std::endl;
+            return dnadata->StrToPrint(name);
         }
         else
         {
-            std::cout << "You must provide a dna sequence!!" << std::endl;
+            return "You must provide a dna sequence!!";
         }
 
     }

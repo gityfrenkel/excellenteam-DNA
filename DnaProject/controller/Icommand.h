@@ -7,11 +7,12 @@
 
 #include <vector>
 #include "../model/DnaData.h"
+#include "Factory.h"
 
 class Icommand
 {
 public:
-    virtual void run(std::vector<std::string> commandParams, DnaData* dnadata) = 0;
+    virtual std::string run(std::vector<std::string> commandParams, DnaData* dnadata) = 0;
     static int SerialNumber;
 };
 

@@ -11,5 +11,6 @@ class UI
 {
 public:
     virtual std::string getPrompt() = 0;
+    virtual void printToScreen(std::string toPrint) = 0;
 };
 #endif //DNAPROJECT_I_UI_H

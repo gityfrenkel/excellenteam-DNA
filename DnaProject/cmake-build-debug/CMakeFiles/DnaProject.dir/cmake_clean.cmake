@@ -15,6 +15,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/DnaProject.dir/controller/Factory.cpp.o"
   "CMakeFiles/DnaProject.dir/controller/Icommand.cpp.o"
   "CMakeFiles/DnaProject.dir/controller/LoadCommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/SaveCommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/ShowCommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/ListCommand.cpp.o"
+  "CMakeFiles/DnaProject.dir/model/DnaSeqPair.cpp.o"
+  "CMakeFiles/DnaProject.dir/controller/PairCommand.cpp.o"
   "DnaProject.pdb"
   "DnaProject"
 )

@@ -11,8 +11,11 @@
 class LoadCommand : public Icommand
 {
 public:
-    void run(std::vector<std::string> commandParams, DnaData* dnadata);
+    std::string run(std::vector<std::string> commandParams, DnaData* dnadata);
     std::string nextSerialName(std::string name, DnaData* dnadata);
+
+private:
+    static int loadRegister;
 };
 
 

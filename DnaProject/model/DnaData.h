@@ -16,13 +16,17 @@ class DnaData
 public:
     DnaData(){}
 
-    void add(int _id, std::string name, SharePointer<IDnaSequence> dna);
+    void add(int _id, std::string name, std::string status, SharePointer<IDnaSequence> dna);
     bool exist(std::string name);
     std::string StrToPrint(std::string name);
+    std::string getDataStr(int DnaId);
+    std::string getNameById(int _id);
+    MetaData* getMetadata(int _id);
+    std::map<int, MetaData*>* getMap();
 
 private:
-    std::map<std::string, MetaData> m_mapName;
-    std::map<int, MetaData> m_mapId;
+    std::map<std::string, MetaData*> m_mapName;
+    std::map<int, MetaData*> m_mapId;
 };
 
 

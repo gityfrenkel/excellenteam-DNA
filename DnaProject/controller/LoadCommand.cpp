@@ -5,17 +5,19 @@
 #include "LoadCommand.h"
 #include <cstring>
 
-void LoadCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
+int LoadCommand::loadRegister = Factory::Register("load", new LoadCommand);
+
+std::string LoadCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
 {
     if(commandParams.size() < 2)
     {
-        std::cout << "You must provide path!!\n";
-        return;
+        return "You must provide path!!";
     }
     std::string name;
     ReadFile file(commandParams[1].c_str());
 
     IDnaSequence* dnaSequence = new DnaSequence(file.read());
+
     SharePointer<IDnaSequence> idnaSequence(dnaSequence);
 
     if(commandParams.size() > 2 )
@@ -33,10 +35,10 @@ void LoadCommand::run(std::vector<std::string> commandParams, DnaData* dnadata)
         name = nextSerialName(fileName, dnadata);
     }
 
-    dnadata->add(++SerialNumber, name, idnaSequence);
+    dnadata->add(++SerialNumber, name, "up to date" ,idnaSequence);
 
 
-    std::cout << dnadata->StrToPrint(name) << std::endl;
+    return dnadata->StrToPrint(name);
 }
 
 std::string LoadCommand::nextSerialName(std::string name, DnaData* dnadata)

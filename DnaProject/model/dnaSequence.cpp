@@ -119,6 +119,18 @@ ostream& operator<<(ostream& os, const DnaSequence dnaSequence)
     return os;
 }
 
+std::ostringstream& operator<< (std::ostringstream &os, const IDnaSequence* idnaSequence)
+{
+    size_t len = idnaSequence->get_Length();
+
+    for (size_t i = 0; i < len; ++i)
+    {
+        os << idnaSequence->getSequence()[i].getNucleotid();
+    }
+
+    return os;
+}
+
 size_t DnaSequence::get_Length() const
 {
     return m_length;
@@ -181,12 +193,12 @@ Nucleotid* DnaSequence::getSequence() const
     return m_dnaSequence;
 }
 
-std::string DnaSequence::getSeqStr()
-{
-    std::string dnaStr = "";
-
-    for( unsigned int i = 0; i < m_length; ++i)
-        dnaStr += m_dnaSequence[i].getNucleotid();
-
-    return dnaStr;
-}
+//std::string DnaSequence::getSeqStr()
+//{
+//    std::string dnaStr = "";
+//
+//    for( unsigned int i = 0; i < m_length; ++i)
+//        dnaStr += m_dnaSequence[i].getNucleotid();
+//
+//    return dnaStr;
+//}

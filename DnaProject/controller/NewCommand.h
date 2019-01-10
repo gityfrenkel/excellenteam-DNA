@@ -12,10 +12,15 @@
 class NewCommand : public Icommand
 {
 public:
-    void run(std::vector<std::string> commandParams, DnaData* dnadata);
+    std::string run(std::vector<std::string> commandParams, DnaData* dnadata);
     std::string nextSerialName(DnaData* dnaData);
 
     static int SerialNameNumber;
+private:
+    static int newRegister;
+
 };
+
+
 
 #endif //DNAPROJECT_NEWCOMMAND_H

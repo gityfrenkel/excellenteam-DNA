@@ -17,9 +17,7 @@ std::string CLI::getPrompt()
     return command;
 }
 
-
-
-//    void* NewDnaFunc(char* dnaName, int dnaId, IDnaSequence* dnaSequence);
-//    void* LoadDnaFunc(char* dnaName, int dnaId);
-//    void* DnaShowFunc(char* dnaName, int dnaId);
-//    void* DnaSaveFunc(char* dnaName, int dnaId);
+void CLI::printToScreen(std::string toPrint)
+{
+    std::cout << toPrint << std::endl;
+}

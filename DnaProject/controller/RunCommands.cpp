@@ -24,9 +24,18 @@ void RunCommands::Run()
         }
         if(parsedCommand[0] == "exit")
         {
-            return;
+            break;
         }
 
-        Factory::getCommand(parsedCommand[0])->run(parsedCommand, &m_dnaData);
+        Icommand* icommand = Factory::getCommand(parsedCommand[0]);
+        if(icommand != NULL)
+        {
+            std::string returnval = icommand->run(parsedCommand, &m_dnaData);
+            m_ui->printToScreen(returnval);
+        }
+        else
+        {
+            std::cout << "invalid command" << std::endl;
+        }
     }
 }
